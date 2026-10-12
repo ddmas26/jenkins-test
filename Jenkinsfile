@@ -6,6 +6,8 @@ pipeline {
             steps {
                 sh 'go version'
                 echo 'Building the application...'
+                echo 'Building the application... last time isa'
+
             }
         }
     }
